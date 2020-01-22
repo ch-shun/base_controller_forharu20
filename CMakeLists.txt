@@ -205,32 +205,32 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(base_controller src/base_controller.cpp)
-target_link_libraries(base_controller ${catkin_LIBRARIES})
+add_executable(base_controller_haru20 src/base_controller.cpp)
+target_link_libraries(base_controller_haru20 ${catkin_LIBRARIES})
 
-add_executable(base_teleop_joy src/base_teleop_joy.cpp)
-target_link_libraries(base_teleop_joy ${catkin_LIBRARIES})
+add_executable(base_teleop_joy_haru20 src/base_teleop_joy.cpp)
+target_link_libraries(base_teleop_joy_haru20 ${catkin_LIBRARIES})
 
-add_executable(base_teleop_joy_assisted src/base_teleop_joy_assisted.cpp)
-target_link_libraries(base_teleop_joy_assisted ${catkin_LIBRARIES})
+add_executable(base_teleop_joy_assisted_haru20 src/base_teleop_joy_assisted.cpp)
+target_link_libraries(base_teleop_joy_assisted_haru20 ${catkin_LIBRARIES})
 
-add_executable(shutdown_controller src/shutdown_controller.cpp)
-target_link_libraries(shutdown_controller ${catkin_LIBRARIES})
+add_executable(shutdown_controller_haru20 src/shutdown_controller.cpp)
+target_link_libraries(shutdown_controller_haru20 ${catkin_LIBRARIES})
 
-add_executable(shutdown_controller_joy src/shutdown_controller_joy.cpp)
-target_link_libraries(shutdown_controller_joy ${catkin_LIBRARIES})
+add_executable(shutdown_controller_joy_haru20 src/shutdown_controller_joy.cpp)
+target_link_libraries(shutdown_controller_joy_haru20 ${catkin_LIBRARIES})
 
-add_executable(useless_planner src/useless_planner.cpp)
-target_link_libraries(useless_planner ${catkin_LIBRARIES})
+add_executable(useless_planner_haru20 src/useless_planner.cpp)
+target_link_libraries(useless_planner_haru20 ${catkin_LIBRARIES})
 
-add_executable(crude_planner src/crude_planner.cpp)
-target_link_libraries(crude_planner ${catkin_LIBRARIES})
+add_executable(crude_planner_haru20 src/crude_planner.cpp)
+target_link_libraries(crude_planner_haru20 ${catkin_LIBRARIES})
 
-add_executable(odom_publisher src/odom_publisher.cpp)
-target_link_libraries(odom_publisher ${catkin_LIBRARIES})
+add_executable(odom_publisher_haru20 src/odom_publisher.cpp)
+target_link_libraries(odom_publisher_haru20 ${catkin_LIBRARIES})
 
-add_executable(base_controller_4wheel src/base_controller_4wheel.cpp)
-target_link_libraries(base_controller_4wheel ${catkin_LIBRARIES})
+add_executable(base_controller_4wheel_haru20 src/base_controller_4wheel.cpp)
+target_link_libraries(base_controller_4wheel_haru20 ${catkin_LIBRARIES})
 
-add_executable(cubic_spline_planner src/cubic_spline_planner.cpp)
-target_link_libraries(cubic_spline_planner ${catkin_LIBRARIES})
+add_executable(cubic_spline_planner_haru20 src/cubic_spline_planner.cpp)
+target_link_libraries(cubic_spline_planner_haru20 ${catkin_LIBRARIES})
