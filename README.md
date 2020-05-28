@@ -1,0 +1,3 @@
+# base_controller_forharu20
+haru20用のベースコントローラー。
+yskさんのものを4輪に対応させました。
